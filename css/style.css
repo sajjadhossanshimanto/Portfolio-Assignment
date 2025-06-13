@@ -11,9 +11,9 @@ body {
   width: 75px;
   height: 75px;
 }
-.photo-frame {
-  max-width: 300px;
-  border: 2px solid #555;
+.hero-image img {
+  max-width: 80%;
+  border-radius: 10px;
 }
 .object-fit-cover {
   object-fit: cover;
