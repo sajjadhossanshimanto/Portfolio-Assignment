@@ -7,6 +7,10 @@ body {
 .text-cyan {
   color: #00ffff !important;
 }
+.navbar-brand img {
+  width: 75px;
+  height: 75px;
+}
 .photo-frame {
   max-width: 300px;
   border: 2px solid #555;
