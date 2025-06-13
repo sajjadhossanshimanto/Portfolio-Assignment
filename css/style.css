@@ -25,10 +25,6 @@ form.bg-secondary {
   background-color: #333 !important;
 }
 .portfolio-card {
-    background-color: transparent;
     border: 1px solid whitesmoke;
     border-radius: 10px;
-    display: flex;
-    padding: 5px;
-    flex-direction: row;
 }
