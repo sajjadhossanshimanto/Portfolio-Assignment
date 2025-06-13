@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gias Uddin Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home" class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold cyan" href="#home">G</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navMenu" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item mx-2"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item mx-2"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item mx-2">
+            <a class="btn btn-info text-light" href="resume.pdf" download>
+              Resume <i class="fa fa-download ms-1"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="container my-5 d-flex flex-lg-row flex-column align-items-center" id="about">
+    <div class="flex-grow-1">
+      <h1 class="display-4 fw-bold cyan">HI!<br> I'M GIAS UDDIN</h1>
+      <h5 class="fw-light">Web Developer || React Developer || Programmer</h5>
+      <p class="my-4 w-lg-75">I am an enthusiastic JavaScript developer … a MERN developer.</p>
+      <div class="mb-3 fs-3">
+        <a href="#" class="text-cyan me-3"><i class="fab fa-github"></i></a>
+        <a href="#" class="text-cyan me-3"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="text-cyan me-3"><i class="fab fa-youtube"></i></a>
+        <a href="resume.pdf" class="btn btn-info text-light ms-3" download>Resume</a>
+      </div>
+    </div>
+    <div class="ms-lg-5 mt-4 mt-lg-0">
+      <img src="images/gias.jpg" class="img-fluid photo-frame" alt="Gias Uddin">
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="container my-5" id="portfolio">
+    <h2 class="text-center display-5 fw-bold mb-4">Portfolio</h2>
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Project Card (Duplicate this block for additional projects) -->
+      <div class="col-md-8">
+        <div class="card bg-secondary border-0">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div id="projCarousel1" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item active h-100"><img src="images/projects1.jpg" class="d-block w-100 h-100 object-fit-cover"></div>
+                  <div class="carousel-item h-100"><img src="images/projects2.jpg" class="d-block w-100 h-100 object-fit-cover"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projCarousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projCarousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 p-4">
+              <h4 class="fw-bold cyan">Online University
+                <a href="#" class="text-light ms-2"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-light ms-2"><i class="fab fa-codepen"></i></a>
+              </h4>
+              <p>This is a travel service agency... choose the service as he/she wants.</p>
+              <ul>
+                <li>User can choose perfect vehicle.</li>
+                <li>See current location.</li>
+                <li>Firebase authentication.</li>
+                <li>Login via Google/Facebook/Github.</li>
+              </ul>
+              <div>
+                <span class="badge bg-dark text-white me-2 mb-2">React</span>
+                <span class="badge bg-dark text-white me-2 mb-2">Firebase</span>
+                <span class="badge bg-dark text-white me-2 mb-2">HTML</span>
+                <span class="badge bg-dark text-white me-2 mb-2">CSS</span>
+                <span class="badge bg-dark text-white me-2 mb-2">Node</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Project Card -->
+
+    </div>
+  </section>
+
+  <!-- Skills & Education -->
+  <section class="container my-5 row" id="skills">
+    <div class="col-lg-6">
+      <h3 class="fw-bold">Expertise:</h3>
+      <div class="mb-3">
+        <span class="badge bg-secondary me-2 mb-2">React.js</span>
+        <span class="badge bg-secondary me-2 mb-2">Javascript</span>
+        <span class="badge bg-secondary me-2 mb-2">Node.js</span>
+        <span class="badge bg-secondary me-2 mb-2">Firebase</span>
+        <span class="badge bg-secondary me-2 mb-2">Express.js</span>
+        <span class="badge bg-secondary me-2 mb-2">HTML</span>
+        <span class="badge bg-secondary me-2 mb-2">Bootstrap</span>
+        <span class="badge bg-secondary me-2 mb-2">MongoDB</span>
+      </div>
+      <h3 class="fw-bold">Comfortable:</h3>
+      <div class="mb-3">
+        <span class="badge bg-secondary me-2 mb-2">SQL</span>
+        <span class="badge bg-secondary me-2 mb-2">Redux</span>
+        <span class="badge bg-secondary me-2 mb-2">Socket.io</span>
+        <span class="badge bg-secondary me-2 mb-2">AWS</span>
+        <span class="badge bg-secondary me-2 mb-2">Docker</span>
+        <span class="badge bg-secondary me-2 mb-2">TypeScript</span>
+        <span class="badge bg-secondary me-2 mb-2">Next.js</span>
+      </div>
+      <h3 class="fw-bold">Familiar:</h3>
+      <div class="mb-3">
+        <span class="badge bg-secondary me-2 mb-2">C++</span>
+        <span class="badge bg-secondary me-2 mb-2">Python</span>
+        <span class="badge bg-secondary me-2 mb-2">Spring Boot</span>
+        <span class="badge bg-secondary me-2 mb-2">Networking</span>
+      </div>
+      <h3 class="fw-bold">Tools:</h3>
+      <div>
+        <span class="badge bg-secondary me-2 mb-2">VS Code</span>
+        <span class="badge bg-secondary me-2 mb-2">JIRA</span>
+        <span class="badge bg-secondary me-2 mb-2">Trello</span>
+        <span class="badge bg-secondary me-2 mb-2">Git</span>
+      </div>
+    </div>
+    <div class="col-lg-6 text-center">
+      <h2 class="display-6 fw-bold cyan">My Education</h2>
+      <p class="fs-5">B.Sc in Software Engineering, Yunnan University (Kunming, China)</p>
+      <p><small>2018–2022</small></p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="container my-5" id="contact">
+    <h2 class="text-center display-5 fw-bold mb-4">Contact Me</h2>
+    <form class="mx-auto w-50 p-4 bg-secondary rounded">
+      <div class="mb-3">
+        <input type="text" class="form-control bg-dark text-light" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control bg-dark text-light" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control bg-dark text-light" rows="3" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-info w-100">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center py-4">
+    <p class="mb-1"><small>© 2021 Gias Uddin</small></p>
+    <p class="mb-3 small">Kunming, Yunnan, China</p>
+    <div class="fs-4">
+      <a href="#" class="text-cyan me-3"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-cyan me-3"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="text-cyan"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
