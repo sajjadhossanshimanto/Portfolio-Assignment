@@ -28,3 +28,8 @@ form.bg-secondary {
     border: 1px solid whitesmoke;
     border-radius: 10px;
 }
+.form-control{
+  background: none;
+  outline: none;
+  color: #fff;
+}
