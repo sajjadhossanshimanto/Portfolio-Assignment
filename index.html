@@ -60,51 +60,55 @@
 
   <!-- Portfolio -->
   <section class="container my-5" id="portfolio">
-    <h2 class="text-center display-5 fw-bold mb-4">Portfolio</h2>
+    <h2 class="text-center display-5 fw-bold m-5">Portfolio</h2>
     <div class="row g-4 justify-content-center">
-      
-      <!-- Project Card (Duplicate this block for additional projects) -->
-      <div class="col-md-8">
-        <div class="card bg-secondary border-0">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <div id="projCarousel1" class="carousel slide h-100" data-bs-ride="carousel">
-                <div class="carousel-inner h-100">
-                  <div class="carousel-item active h-100"><img src="images/projects1.jpg" class="d-block w-100 h-100 object-fit-cover"></div>
-                  <div class="carousel-item h-100"><img src="images/projects2.jpg" class="d-block w-100 h-100 object-fit-cover"></div>
+
+        <div class="col-md-12">
+          <div class="card portfolio-card">
+            <div class="carousel slide" id="carousel2" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="./images/projects1.png" class="d-block w-100" alt="Project Image 1">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#projCarousel1" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#projCarousel1" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
+                <div class="carousel-item active">
+                  <img src="./images/projects2.png" class="d-block w-100" alt="Project Image 2">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-md-6 p-4">
-              <h4 class="fw-bold cyan">Online University
-                <a href="#" class="text-light ms-2"><i class="fab fa-github"></i></a>
-                <a href="#" class="text-light ms-2"><i class="fab fa-codepen"></i></a>
-              </h4>
-              <p>This is a travel service agency... choose the service as he/she wants.</p>
+            <div class="d-flex flex-column justify-content-center text-light p-4">
+              <h5 class="card-title">E-Commerce Website</h5>
+              <p class="card-text">
+                This is a travel service agency website. Users can log in via
+                Facebook or Google Sign-In and create an account to use the
+                services. Firebase Authentication is used.
+              </p>
               <ul>
-                <li>User can choose perfect vehicle.</li>
-                <li>See current location.</li>
-                <li>Firebase authentication.</li>
-                <li>Login via Google/Facebook/Github.</li>
+                <li>
+                  <strong>Features:</strong>
+                  <ul>
+                    <li>Secure Payments</li>
+                    <li>Modern UI</li>
+                  </ul>
+                </li>
               </ul>
-              <div>
-                <span class="badge bg-dark text-white me-2 mb-2">React</span>
-                <span class="badge bg-dark text-white me-2 mb-2">Firebase</span>
-                <span class="badge bg-dark text-white me-2 mb-2">HTML</span>
-                <span class="badge bg-dark text-white me-2 mb-2">CSS</span>
-                <span class="badge bg-dark text-white me-2 mb-2">Node</span>
+              <div class="g-4 badge-group">
+                <span class="badge text-bg-secondary">React</span>
+                <span class="badge text-bg-secondary">Firebase</span>
+                <span class="badge text-bg-secondary">HTML</span>
+                <span class="badge text-bg-secondary">CSS</span>
+                <span class="badge text-bg-secondary">NODE</span>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- /Project Card -->
 
     </div>
   </section>
